@@ -19,7 +19,7 @@ En esta práctica se creó una cuenta de almacenamiento a través de Azure Resou
 
 1. Abrimos Visual Studio Code y creamos un nuevo archivo llamado “azuredeploy.json” y descargamos la extensión de VSC ‘Azure Resource Manager (ARM) Tools’.
 
-![P16I1](Images\Sesión 7 - P16 01.PNG)
+![P16I1](https://github.com/AlbertoSF99/Practica-16/blob/main/Images/Sesi%C3%B3n%207%20-%20P16%2001.PNG)
 
 2. Habiendo creado el archivo .json, escribimos el siguiente script:
 
@@ -31,13 +31,13 @@ En esta práctica se creó una cuenta de almacenamiento a través de Azure Resou
 }
 ```
 
-![P16I2](Images\Sesión 7 - P16 02.PNG)
+![P16I2](https://github.com/AlbertoSF99/Practica-16/blob/main/Images/Sesi%C3%B3n%207%20-%20P16%2002.PNG)
 
 3. Posteriormente, para subir esto a Azure, en la pestaña de ‘Explorer’ desplegamos la plantilla donde se encuentran los proyectos, y buscamos por el archivo “azuredeploy.json” y le damos click derecho y pulsamos sobre ‘Reveal in File Explorer’. Al abrir el explorador de archivos, pulsamos sobre la ruta de ubicación y remplazamos la ruta por “cmd” y damos enter.
 
-![P16I3](Images\Sesión 7 - P16 03.PNG)
+![P16I3](https://github.com/AlbertoSF99/Practica-16/blob/main/Images/Sesi%C3%B3n%207%20-%20P16%2003.PNG)
 
-![P16I4](Images\Sesión 7 - P16 04.PNG)
+![P16I4](https://github.com/AlbertoSF99/Practica-16/blob/main/Images/Sesi%C3%B3n%207%20-%20P16%2004.PNG)
 
 4. Una vez abierto el cmd, escribimos los siguientes comandos:
 
@@ -50,11 +50,11 @@ az deployment group create \
 
 Esperamos a que se termine de implementar.
 
-![P16I5](Images\Sesión 7 - P16 05.PNG)
+![P16I5](https://github.com/AlbertoSF99/Practica-16/blob/main/Images/Sesi%C3%B3n%207%20-%20P16%2005.PNG)
 
 5. Para comprobar la implementación realizada, podemos ir al grupo de recursos que creamos y clickear en ‘Implementaciones’ y aquí se encontrarán la plantilla que se elaboró con los comandos, con el estado de ‘Correcta’ que quiere decir que se implementó correctamente.
 
-![P16I6](Images\Sesión 7 - P16 06.PNG)
+![P16I6](https://github.com/AlbertoSF99/Practica-16/blob/main/Images/Sesi%C3%B3n%207%20-%20P16%2006.PNG)
 
 6. Regresamos a VSC y en el apartado del script, donde se escribió “resources”: [] damos un enter entre ambos corchetes para luego escribir los siguientes comandos:
 
@@ -74,7 +74,7 @@ Esperamos a que se termine de implementar.
 }
 ```
 
-![P16I7](Images\Sesión 7 - P16 07.PNG)
+![P16I7](https://github.com/AlbertoSF99/Practica-16/blob/main/Images/Sesi%C3%B3n%207%20-%20P16%2007.PNG)
 
 7. Repetimos los pasos 4 y 5 para encontrarnos con los recursos de almacenamiento que se elaboraron con comandos en VSC.
 
